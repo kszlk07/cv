@@ -1,0 +1,141 @@
+a{
+  color: #789395;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 20px 10px;
+}
+
+body {
+  background-color: #ECECDE;
+  font-family: 'Merriweather', serif;
+  margin:0;
+  text-align: center;
+}
+h1 {
+  color: #B4CFB0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #B4CFB0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 100px auto 80px;
+}
+
+h3 {
+  color: #94B49F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: none;
+  border-top: 6px dotted #789395;
+  width: 3%;
+  margin: 100px auto;
+}
+p {
+  line-height: 2.5;
+}
+/***Class Selectors***/
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #E5E3C9;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 50px 0;
+  background-color: #B4CFB0;
+}
+
+.cloud{
+  position: absolute;
+  height: 120px;
+}
+
+.tree{
+  width: 25rem;
+  margin-top: 25px;
+}
+
+.short-desc{
+  width: 25%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.code-img {
+  width: 15%;
+  margin-right: 30px;
+  float: left;
+}
+
+.web-img {
+  width: 15%;
+  margin-left: 10px;
+  float: right;
+}
+
+.contact-button{
+  margin: 50px auto;
+}
+
+.signature{
+  color: #EAF6F6;
+  margin: 50px auto 0;
+}
+
+.btn {
+  background: #b3d6ae;
+  background-image: -webkit-linear-gradient(top, #b3d6ae, #799e73);
+  background-image: -moz-linear-gradient(top, #b3d6ae, #799e73);
+  background-image: -ms-linear-gradient(top, #b3d6ae, #799e73);
+  background-image: -o-linear-gradient(top, #b3d6ae, #799e73);
+  background-image: linear-gradient(to bottom, #b3d6ae, #799e73);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a4e09b;
+  background-image: -webkit-linear-gradient(top, #a4e09b, #7cb372);
+  background-image: -moz-linear-gradient(top, #a4e09b, #7cb372);
+  background-image: -ms-linear-gradient(top, #a4e09b, #7cb372);
+  background-image: -o-linear-gradient(top, #a4e09b, #7cb372);
+  background-image: linear-gradient(to bottom, #a4e09b, #7cb372);
+  text-decoration: none;
+}
+/*********ID Selectors************/
+#top_cloud{
+  top: 4rem;
+  right: 27%;
+}
+
+#bottom_cloud{
+  left: 27%;
+  bottom: 25rem;
+}
